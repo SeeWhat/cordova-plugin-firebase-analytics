@@ -18,7 +18,9 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <engine name="cordova" version=">=3.5.0"/>
     </engines>
 
-    <dependency url="https://github.com/37d/cordova-plugin-firebase-hooks.git" commit="852bf787962f15bb4fa30d2e0942cb603eb6a0e3"/>
+    <dependency id="cordova-plugin-firebase-hooks"
+                url="https://github.com/37d/cordova-plugin-firebase-hooks.git" 
+                commit="852bf787962f15bb4fa30d2e0942cb603eb6a0e3"/>
 
     <platform name="ios">
         <config-file target="config.xml" parent="/*">

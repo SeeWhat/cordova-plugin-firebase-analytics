@@ -20,7 +20,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
     <dependency id="cordova-plugin-firebase-hooks"
                 url="https://github.com/37d/cordova-plugin-firebase-hooks.git" 
-                commit="04fabb76fb7b21b7c47754071dc9b9e69dab53c5"/>
+                commit="7d6605c729a8ee9a766518c5fb661756db65dfba"/>
 
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
